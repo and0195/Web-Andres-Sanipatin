@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrés Sanipatín</title>
+    <!---- fon awson---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!--Font Oswald-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">    
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="stylesProyec.css">
+    <link rel="stylesheet" href="What2.css">
+</head>
+<body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=593991803255&text=Hola%20como%20puedo%20ayudarte" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+
+    </div>
+
+    <div class="container">
+        <nav class="nav-main">
+           <!--- <img src="img/logo.jpg" alt="" class="nav-logo">  -->      
+            <ul class="nav-menu show">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Proyectos</a>
+                </li>
+
+
+            </ul>                     
+        </nav>
+        <hr>
+        <!--Sow Case-->
+        <header class="showcase">
+            <h2 id="arriba">Sistema para caracterización de señales ECG    </h2>
+            <p>-- Tesis -- 2019 --</p>
+            <p>
+                Este proyecto nacío a raíz de la necesidad de una aplicación de telemedicina para la detección de 
+                anomalías cardíacas dentro de él examen ECG (Electrocardiograma), su función es adquirir señales ECG 
+                ya sea desde una base de datos externa o de forma directa conectando los diodos al torso del paciente, para 
+                mediante técnicas de Machine Learning detectar las anomalías en la señal. Este sistema está conformado 
+                por: un sensor ECG, un conversor A/D y un micro procesador               
+            </p>
+            <p>La etapa de procesamiento de información se realizó en una tarjeta raspberry pi (Micro procesador) y usando como 
+                interprete de programación Python, la señal de entrada se filtra mediante FOURIER, WAVELET y BUTTHEWORT. Para 
+                la clasificación de ondas y detección de anomalías se utilizó el método K-NN(K Nearest Neighbours), a continuación 
+                se muestran los resultados obtenidos.
+            </p>
+            
+            <a href="#pr2" class="btn">Más trabajos<i class="fas fa-angle-double-right"></i> </a>
+            <img src="../img/Car2.jpg" alt="" class="nav-carac">
+            <img src="../img/Car3.jpg" alt="" class="nav-carac2">
+            <img src="../img/Car4.jpg" alt="" class="nav-carac3">
+            
+        </header>
+
+        <section class="cards-banner-one">
+            <div class="content">
+                <h2 id="pr2">Adquisición de datos provenientes de los contadores T1-T2-T3-T4 </h2>
+                <p>-- Bella Rosa --- 2019 --</p>
+                <p>Debido a la necesidad de mantener un registro permanente del número de mallas que ingresan a la etapa de poscosecha
+                    provenientes de las líneas de transporte áereo (T1-T2-T3-T4), se precento una alternativa para mejorar el sistema de 
+                    conteo el cual estaba compuesto por contadores digitales de 6 dígitos instalados en las afueras del area de poscosecha, estos
+                    contadores presentaban inconvenientes como: el registro y reseteo se realizaban de forma manual, además su precisión
+                    oscilaba en un 85-90%.                    
+                </p>
+                <p>Por estos motivos se planteó llevar la información entregada por los contadores a un entorno virtual, en el cual se 
+                    mejor su precisión a un 97% por medio de incorporación de filtros digitales y de la linealización del sensor, además
+                     su registro y reseteo se realiza de forman automática por medio de una aplicación instalada en la computadora principal del área de 
+                    poscosecha.
+                </p>
+                <a href="#pr3"class="btn2">Más trabajos<i class="fas fa-angle-double-right"></i></a>
+                <img src="../img/Ad1.jpg" alt="" class="nav-adq">
+                <img src="../img/Ad2.jpg" alt="" class="nav-adq2">
+                <img src="../img/Ad3.jpg" alt="" class="nav-adq3">
+            </div>
+        </section>
+        <!-- Banners en lugar de los div de erriba-->
+        <section class="cards-banner-one1">
+            <div class="content">
+                <h2 id="pr3">Automatización del proceso de fumigación</h2>
+                <p>-- Bella Rosa y Rose Connection -- 2019/2020 --</p>
+                <p>Una etapa crítica dentro de la producción de flores es el proceso de fumigación de mallas al ingreso del área de
+                    poscosecha, pues esta consume una alta cantidad de producto fumigante representando un gasto considerable, para
+                    minimizar estos gastos se planteó el desarrollo de un sistema de fumigación automático por el cual se suministra 
+                    una cantidad justa de producto.  </p>
+                    <p>Este sistema consta de un segmento móvil el cual se desplaza longitudinalmente con ayuda de un motorreductor
+                         inyectando el producto a las mallas mediante la activación y desactivación de electroválvulas. Todo este proceso
+                        se encuentra controlado por medio de un logo de la familia SIEMNS. Con ayuda de este sistema se espera una reducción
+                    hasta un 37% de consumo de producto.</p>
+                <a href="#pr4"class="btn3">Más trabajos <i class="fas fa-angle-double-right"></i></a>
+                <img src="../img/Fu1.jpg" alt="" class="nav-fun1">
+                <img src="#" alt="" class="nav-fun2">
+            </div>
+        </section>
+        <section class="cards-banner-one2">
+            <div class="content">
+                
+                <h2 id="pr4">Sistema automático de corte de tallos</h2>
+                <p><p>-- Bella Rosa y Rose Connection -- 2020 --</p></p>
+                <p>Dentro del proceso de tinturado es necesario realizar cortes en los tallos que permitan la absorción de diferentes 
+                    colorantes, este proceso se realiza de forma manual consumiendo muchos recursos humanos para optimizar
+                    este proceso se planteó la construcción de una maquina automática que realice el corte de los tallos
+                </p>
+                <p>La máquina está compuesta por una banda transportadora sobre la cual se colocan las rosas para posteriormente
+                    ingresar en a la sección de corte que mediante dos cilindros neumáticos ajustan el tallo y realizan el corte. Esta
+                    máquina es controlada por un PLC DELTA.
+                </p>                
+                <a href="#pr5"class="btn1">Más trabajos <i class="fas fa-angle-double-right"></i></a>
+                <img src="../img/Tal2.jpg" alt="" class="nav-tall">
+                <img src="#" alt="" class="nav-tall1">
+            </div>
+        </section>
+        <section class="cards-banner-one3">
+            <div class="content">
+                <h2 id="pr5">Máquina extractora de amortiguadores semi-automática</h2>
+                <p>-- Particular -- 2020/2021 --</p>
+                <p>Para mejorar y optimizar la extracción de resorte de los amortiguadores que se encuentran en los
+                    automóviles se fabricó una máquina constituida por un cilindro neumáticos y controlada por un logo de la
+                familia SIEMNS. </p>
+                <a href="#pr6"class="btn4">Más trabajos <i class="fas fa-angle-double-right"></i></a>
+                <img src="../img/Ex1.jpg" alt="" class="nav-ext">
+                <img src="../img/Ex2.jpg" alt="" class="nav-ext2">
+                <img src="../img/Ex3.jpg" alt="" class="nav-ext3">
+            </div>
+        </section>
+        <section class="cards-banner-one4">
+            <div class="content">
+                
+                <h2 id="pr6">Plan de mantenimiento industria 4.0</h2>
+                <p><p>-- Metálicas FORZA -- 2018--</p></p>
+                <p>El área de mantenimiento dentro de una empresa es fundamental y se precisa de la incorporación de
+                    mejoras continuas que ayuden a disminuir el tiempo de paro de un equipo. Es por ello que se diseño
+                    un plan de mantenimiento predictivo enfocado a la INDUSTRIA 4.0 (el internet de las cosas) por medio
+                    de la instalación de sensores con tecnología IO-Link se recopila información en tiempo real que ayuda 
+                    a realizar un diagnóstico efectivo del estado del equipo, identificando así anomalías en su funcionamiento.</p>
+                    <p>Para la adquisición de la información de los sensores se  utilizó una tarjeta raspberry pi la cual agrupa
+                        la información y genera reportes de forma continua anexándolos a una base de datos en la nube para facilitar el acceso de esta información.
+                    </p>
+                
+                <a href="#pr7"class="btn5">Más trabajos <i class="fas fa-angle-double-right"></i></a>
+                <img src="../img/Ind1.jpg" alt="" class="nav-ind">
+                <img src="../img/Ind2.jpg" alt="" class="nav-ind2">
+                <img src="../img/Ind3.jpg" alt="" class="nav-ind3">
+            </div>
+        </section>
+>
+        <section class="cards-banner-one6">
+            <div class="content">
+                
+                <h2 id="pr7">Control para parqueadero de bicicletas autosustentable</h2>
+                <p>-- Universidad Técnica del Norte -- 2018 --</p>
+                <p>Para la FACULTAD DE INGENIERIA EN CIENCIAS APLICADAS FICA de la UNIVERSIDAD TÉCNICA DEL NORTE
+                    se diseñó un parqueadero de bicicletas autosustentable implementando paneles solares y 
+                    mecanismos de seguridad eléctricos controlados por una tarjeta ARDUINO MEGA. El accionamiento 
+                de los mecanismos de seguridad está dado por un passsword introducido por el usuario.</p>
+                                   
+                <a href="../index.html"class="btn6">Volver <i class="fas fa-angle-double-right"></i></a>
+                <img src="../img/Par1.jpg" alt="" class="nav-par">
+                <img src="../img/Par2.jpg" alt="" class="nav-par2">
+                
+            </div>
+        </section>
+
+
+    </div>
+
+   <!--Scroll Reveal efecto aparecer desa-->
+   <script src="https://unpkg.com/scrollreveal"></script>     
+   <!--Custom JS-->
+   <script src="mainProye.js"></script>
+ 
+    
+</body>
+</html>
